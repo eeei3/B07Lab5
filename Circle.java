@@ -26,7 +26,7 @@ public class Circle {
 	public boolean equals(Object obj) {
 		
 		if (!(obj instanceof Circle)) {
-			return false
+			return false;
 		}
 		Circle other = (Circle) obj;
 		return r == other.r;
