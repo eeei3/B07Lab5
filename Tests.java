@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class Tests {
-	@Test
+		@Test
 		void PentagonEquilateral() {
 			Point a = new Point(1,1);
 			Point b = new Point(1,1);
