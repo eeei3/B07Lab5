@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class CircleTests {
 
 	@Test
-	void testcircumference() {
+	public void testcircumference() {
 		Circle c = new Circle(new Point(0,0), 1);
 		double expected = 2*Math.PI*1;
 		assertEquals(c.circumference(), expected);
