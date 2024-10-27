@@ -14,7 +14,7 @@ class Tests {
 			Pentagon p = new Pentagon(a,b,c,d,e);
 			assertTrue(p.isEquilateral());
 		}
-		
+	@Test
 		void PentagonNotEquilateral() {
 			Point a = new Point(1,2);
 			Point b = new Point(1,5);
