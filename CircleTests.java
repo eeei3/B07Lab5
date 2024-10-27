@@ -15,19 +15,19 @@ class CircleTests {
     public void testDiameter() {
 		Circle c = new Circle(new Point(0,0), 1);
 		double expected = 2;
-        assertEquals(2, c.circle.diameter());
+        assertEquals(2, c.diameter());
     }
 
     @Test
     public void testArea() {
-    	circle c = new Circle(new Point(0, 0), 5);
+    	Circle c = new Circle(new Point(0, 0), 5);
         double expected = Math.PI * 25;
-        assertEquals(expected, c.circle.area());
+        assertEquals(expected, c.area());
     }
 
     @Test
-    public void testEquals() {
-        circle c = new Circle(new Point(1, 1), 5);
+    public void testEquals() {	
+	Circle c = new Circle(new Point(1, 1), 5);
         Circle sameCircle = new Circle(new Point(0, 0), 5);
         assertTrue(c.equals(sameCircle));
     }
